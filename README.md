@@ -20,24 +20,25 @@ The "LinkedIn Jobs Dataset" is a comprehensive collection of job listings and re
 In this project, the [LinkedInTechJobsDataset.csv](data/LinkedInTechJobsDataset.csv)  was analyzed using a Python script [main.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject2/blob/main/src/script.py) file, which generates the outputs presented in **this Markdown file**
 
 ### 📊 Results
-If we calculate some descriptive statistics, we obtain the following:
+We can see certain descriptive statistics of the variables:
 
-![aggregated_stats](https://raw.githubusercontent.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject2/main/aggregated_stats.png)
+- Total_applicants
+- Employee_count
+- LinkedIn_Followers
+  
 
-What can we observe regarding the required level of the job postings?"
+|          |  Total_applicants |   Employee_count  |LinkedIn_Followers | 
+|:---------|------------------:|------------------:|------------------:|
+| mean     | 23                | 5178              | 1401891           |
+| median   | 8                 | 5000              | 270280            |
+| count    | 811               | 811               | 811               |
 
-![Involvement](https://raw.githubusercontent.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject2/main/output/Involvement.png)
 
-We see that the majority of job postings are for mid-senior and entry-level positions.
 
-A question that arises when analyzing this dataset is: What are the most demanded skills in technology job postings? This can be visualized in the following chart. It is worth mentioning that this chart represents the total requirements for a specific skill out of a total of 811 records in the dataset.
-
-![skills](https://raw.githubusercontent.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject2/main/output/skills.png)
-
-We can see that from this sample of job postings, the most demanded skills or tools are AI, UI, Excel, SQL, and Java
-
-### 👥 Histogram of total number of applicants per job posting
+However, measures of central tendency often conceal the true data distribution, so we create a histogram to visualize its distribution more effectively
 
 ![Total_applicants](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject2/blob/main/output/Total_applicants.png)
 
-From the histogram, it is evident that the majority of job postings have more than 500 applicants. This underscores the importance of having a professional profile that can stand out among other applicants.
+![Employee_count](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject2/blob/main/output/Employee_count.png)
+
+![Total_applicants](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject2/blob/main/output/LinkedIn_Followers.png)
