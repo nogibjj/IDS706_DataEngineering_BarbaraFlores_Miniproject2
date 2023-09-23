@@ -17,7 +17,7 @@ The "LinkedIn Jobs Dataset" is a comprehensive collection of job listings and re
 
 ### 🧪 Methodology
 
-In this project, the [LinkedInTechJobsDataset.csv](data/LinkedInTechJobsDataset.csv)  was analyzed using a Python script [main.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject2/blob/main/main.py) file, which generates the outputs presented in **this Markdown file**
+In this project, the [LinkedInTechJobsDataset.csv](data/LinkedInTechJobsDataset.csv)  was analyzed using a Python script [main.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject2/blob/main/src/script.py) file, which generates the outputs presented in **this Markdown file**
 
 ### 📊 Results
 If we calculate some descriptive statistics, we obtain the following:
