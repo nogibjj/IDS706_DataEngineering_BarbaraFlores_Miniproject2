@@ -20,4 +20,4 @@ jobs:
       - name: format
         run: make format
       - name:  main
-        run: make descriptive_statistics   
+        run: make script   
